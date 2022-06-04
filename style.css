@@ -9,12 +9,14 @@
 }
 .navbar{
     height: 70px;
-    background: black;
+    background: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    color: aliceblue;
+    color: #220D75;
     justify-content: space-between;
     padding: 0px 40px 0px 60px;
+    border: none;
+    border-bottom: 1px solid #220D75;
 }
 .nav-list{
     display: flex;
@@ -29,16 +31,37 @@
     margin: 20px;
 }
 .menu-list a{
-    color: aliceblue;
+    color: #220D75;
     text-decoration: none;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
 }
 .menu-btn{
     margin-right: 20px;
+    text-decoration: none;
+    background: #220D75;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+
+}
+.logo{
+    font-family: 'poppins';
+font-style: normal;
+font-weight: bolder;
+font-size: 30px;
+line-height: 36px;
+
+color: #1E0484;
 
 }
 .hero{
     display: flex;
-    background: lavender;
+    background: rgb(252, 252, 253);
     height: 89vh;
     position: relative;
 }
@@ -69,26 +92,49 @@ line-height: 66px;
 }
 .hero-section1 p{
     position: absolute;
-    left: 91px;
+    
     top:250px;
+    width: 604px;
+height: 108px;
+left: 95px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+color: #3C3C3D;
 }
 .hero-btn{
     position: absolute;
-    left: 50px;
-    top:340px;
+width: 248px;
+height: 40px;
+left: 95px;
+top: 636px;
+color: aliceblue;
+border: none;
+background: #220D75;
+border-radius: 20px;   
+top:340px;
 }
 .hero-section{
-background-color: #000000;
+/* background-color: #000000; */
+position: relative;
 width: 50%;
 }
 .image{
-    
+    border: none;
 position: absolute;
-/* width: 744px; 
- height: 681px;
-left: 38px;
+width: 400; 
+ height: 400px;
+left: 90px;
 top: 71px;
-background: url(.jpg), #FFFFFF;
+background: #220D75;
 border: 1px solid #000000;
-border-radius: 50%; */
+border-radius: 50%; 
+}
+.img{
+    /* border-radius: 50%;  */
+ border-radius: 340.5px;
+ width: 400px; 
+ height: 400px;
 }
