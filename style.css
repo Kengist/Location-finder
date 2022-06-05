@@ -3,6 +3,169 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+
+body{
+    background-color: antiquewhite;
+}
+.container-contact{
+    height: 100vh;
+    background-color: grey;
+}
+.wrapper-contact{
+    height: 100vh;
+    padding: 20px 25px;
+    display: flex;
+}
+.sec1-contact{
+height: 600px;
+width: 557px;
+background-color: #220D75;
+margin-top: 100px;
+position: absolute;
+padding-left: 30px;
+padding-right: 10px;
+
+}
+.sec2-contact{
+    height: 800px;
+    width: 956px;
+    background-color: #FFFFFF;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.header-contact{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.txtcol-contact{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.txt4-contact{
+    font-weight: lighter;
+    font-size: 12px;
+}
+.line-contact{
+    width: 160px;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.line1-contact{
+    width: 100px;
+    border: 2px solid white;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.line2-contact{
+    width: 100px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.line3-contact{
+    width: 80px;
+    border: 2px solid black;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.txt1-contact{
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+    color: gray;
+}
+.txtblack-contact{
+    color: black;
+    font-weight: bold;
+}
+.txtb-contact{
+    font-weight: normal;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.txt2-contact{
+    color: gray;
+    font-size: 14px;
+}
+.calldiv-contact{
+    display: flex;
+    margin-top: 100px;
+    
+}
+.fa-lock-contact{
+    color: gray;
+}
+.inp1-contact{
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    width: 320px;
+}
+.inp3-contact{
+    border: none;
+}
+.call-icon-cont{
+    color: #0C5EFF;
+   
+    font-size: 16px;
+}
+.ic-div-contact{
+height: 24px;
+width: 30px;
+ border: 2px solid #0C5EFF;
+/* background-color: aqua; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.c2-contact{
+    margin-left: 20px;
+}
+.email-contact{
+    display: flex;
+    margin-top: 10px;
+}
+.address-contact{
+    display: flex;
+    margin-top: 10px;
+}
+
+.inp1-div-cont{
+    margin-top: 10px;
+}
+.inp2-div-cont{
+    margin-top: 20px;
+}
+.line4-contact{
+    width: 200px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inp3-div-cont{
+    margin-top: 20px;
+    padding: 80px 80px;
+    margin-bottom: 30px;
+}
+
+.btn1-contact{
+    width: 250px;
+    height: 30px;
+    background: linear-gradient(to bottom, #3B0D75 21.88%, #220D75 100%);
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 1px solid #B9A9F8;
+}
+
+/* index csss style */
 .fluid{
     background: rebeccapurple;
     height: 100vh;
