@@ -307,7 +307,7 @@ border-radius: 50%;
 .cont-su{
     height: 100vh;
     background-color: #220D75;
-    padding-top: 79px;
+    padding-top: 29px;
 }
 
 
@@ -315,7 +315,7 @@ border-radius: 50%;
     background-color: #FFFFFF;
     height: 550px;
     width: 450px;
-    margin-left: 500px;
+    margin-left: 400px;
     padding-top: 50px;
     box-shadow: 15px 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
