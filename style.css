@@ -418,7 +418,21 @@ border-radius: 50%;
     cursor: grab;  
     margin-left: 60px;
 }
+input:focus{
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+::placeholder{
+    padding-bottom: 30px 0px;
+    /* background: red; */
+    margin-bottom: 10px;
+}
+input{
+    padding: 5px 0;
 
+}
 .txt2-su{
     font-size: 14px;
     margin-left: 60px;
@@ -450,12 +464,16 @@ border-radius: 50%;
     padding-left: 5px;
     padding-top: 5px;
 }
-
+.checkbox-signup{
+    /* background: red; */
+    display: flex;
+}
 .img3-su{
     height: 30px;
     width: 30px;
     border-radius: 100%;
     background-color: #bc2a8d;
     padding-left: 5px;
-    padding-top: 5px;
+    padding-bottom: 5px;
+    /* padding-top: 5px; */
 }
