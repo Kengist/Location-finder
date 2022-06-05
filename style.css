@@ -40,14 +40,23 @@ padding-right: 10px;
 .header-contact{
     margin-top: 50px;
     margin-left: 10px;
+    font-size: 24px;
+    line-height: 36px;
+}
+.header2-contact{
+    margin-top: 50px;
+    font-size: 32px;
+    line-height: 48px;
 }
 .txtcol-contact{
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 20px;
+    /* line-height: 30px; */
 }
 .txt4-contact{
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 16px;
+    /* line-height: 24; */
 }
 .line-contact{
     width: 160px;
@@ -65,21 +74,19 @@ padding-right: 10px;
     width: 100px;
     border: 2px solid black;
     margin-top: 5px;
-    margin-left: 10px;
 }
 .line3-contact{
     width: 80px;
     border: 2px solid black;
     margin-top: 3px;
-    margin-left: 10px;
 }
 .txt1-contact{
-    font-size: 12px;
+    font-size: 20px;
     font-weight: normal;
     margin-top: 20px;
     text-align: justify;
     margin-bottom: 30px;
-    color: gray;
+    color: black;
 }
 .txtblack-contact{
     color: black;
@@ -88,11 +95,12 @@ padding-right: 10px;
 .txtb-contact{
     font-weight: normal;
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 19.5px;
 }
 .txt2-contact{
     color: gray;
-    font-size: 14px;
+    font-size: 24px;
 }
 .calldiv-contact{
     display: flex;
@@ -111,6 +119,8 @@ padding-right: 10px;
 }
 .inp3-contact{
     border: none;
+    font-size: 20px;
+    color: #626265;
 }
 .call-icon-cont{
     color: #0C5EFF;
@@ -142,7 +152,7 @@ align-items: center;
     margin-top: 10px;
 }
 .inp2-div-cont{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .line4-contact{
     width: 200px;
@@ -151,7 +161,7 @@ align-items: center;
     margin-bottom: 10px;
 }
 .inp3-div-cont{
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 80px 80px;
     margin-bottom: 30px;
 }
