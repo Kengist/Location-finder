@@ -314,8 +314,8 @@ border-radius: 50%;
 .card-su{
     background-color: #FFFFFF;
     height: 550px;
-    width: 450px;
-    margin-left: 400px;
+    width: 430px;
+    margin-left: 450px;
     padding-top: 50px;
     box-shadow: 15px 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -332,7 +332,6 @@ border-radius: 50%;
     background: #220D75;
     border-radius: 0px 5px 5px 0px;
     padding-top: 5px;
-    margin-left: 20px;
     margin-bottom: 20px;
 }
 
@@ -344,11 +343,10 @@ border-radius: 50%;
 }
 
 .thrd-rw-su{
-    margin-left: 40px;
     margin-top: 25px;
     font-size: 10px;
     text-align: center;
-    width: 70%;
+    width: 76%;
 }
 
 .sec-rw-c1-su{
@@ -416,7 +414,7 @@ border-radius: 50%;
     margin-bottom: 10px;
     margin-top: 20px;
     cursor: grab;  
-    margin-left: 60px;
+    margin-left: 85px;
 }
 input:focus{
     padding: 8px 0;
@@ -435,13 +433,13 @@ input{
 }
 .txt2-su{
     font-size: 14px;
-    margin-left: 60px;
+    margin-left: 85px;
     margin-bottom: 10px;
 }
 
 .forth-rw-su{
     display: flex;
-    margin-left: 170px;
+    margin-left: 150px;
     justify-content: space-between;
     width: 110px;
 }
@@ -467,6 +465,7 @@ input{
 .checkbox-signup{
     /* background: red; */
     display: flex;
+    margin-left: 40px;
 }
 .img3-su{
     height: 30px;
@@ -474,6 +473,8 @@ input{
     border-radius: 100%;
     background-color: #bc2a8d;
     padding-left: 5px;
-    padding-bottom: 5px;
-    /* padding-top: 5px; */
+}
+
+.bg-su{
+    margin-left: 3px;
 }
